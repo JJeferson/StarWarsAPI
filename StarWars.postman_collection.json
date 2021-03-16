@@ -1,0 +1,161 @@
+{
+	"info": {
+		"_postman_id": "dcaceffa-15f2-4267-a1f5-f5ddc6693b4a",
+		"name": "StarWars",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST-SalvaNovoPlaneta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\":\"Tatooine\",\r\n  \"clima\":\"Planeta 03\",\r\n  \"terreno\":\"Planeta 03\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/starwars/planetas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"starwars",
+						"planetas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE-DeletaPorID-EstrelaDaMorte",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id_planeta\":13\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/starwars/estreladamorte",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"starwars",
+						"estreladamorte"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET-RecuperaTodosPlanetas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/starwars/planetas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"starwars",
+						"planetas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET-RecuperaPlanetaPorID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/starwars/planetas/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"starwars",
+						"planetas",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET-RecuperaPlanetaPorNome",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/starwars/planetapornome/Plan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"starwars",
+						"planetapornome",
+						"Plan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET-STAR-WARS-API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/planets",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"planets"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
