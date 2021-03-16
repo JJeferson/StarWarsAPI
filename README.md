@@ -30,7 +30,7 @@
  <p align="left"> 
  A consulta por nome pega o parametro de pesquisa da url, exemplo:
  </p>
- http://localhost:8080/starwars/planetapornome/CARACTERES_PARA_PESQUISAR
+ http://localhost:8080/starwars/planetapornome/CARACTERES_PARA_PESQUISAR </br>
  http://localhost:8080/starwars/planetapornome/Plan
  
  <p align="left"> </br></br>
