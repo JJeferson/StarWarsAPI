@@ -1,9 +1,10 @@
 # StarWarsAPI
 <p align="left"> 
- API para cadastro de Planetas. Consulta API publica do Star Wars também.
- Todos os Endpoints testados se encontram dentro da coleção ma raiz do repositório.
- StarWars.postman_collection.json
- Basta importar no postman e testar.
+ API para cadastro de Planetas. </br>
+ Consulta API publica do Star Wars também. </br>
+ Todos os Endpoints testados se encontram dentro da coleção ma raiz do repositório. </br>
+ StarWars.postman_collection.json </br>
+ Basta importar no postman e testar. </br>
  </P>
  <p align="left"> 
  Como instalar:</p>
@@ -25,14 +26,14 @@
  </p>
  <p align="left"> 
  Caso ele encontre ele vai colocar a QTDE de filmes da API, caso contrario zero.
- </p>
+ </p></br></br>
  <p align="left"> 
  A consulta por nome pega o parametro de pesquisa da url, exemplo:
  </p>
  http://localhost:8080/starwars/planetapornome/CARACTERES_PARA_PESQUISAR
  http://localhost:8080/starwars/planetapornome/Plan
  
- <p align="left"> 
+ <p align="left"> </br></br>
 O Endpoint da exclusão se chama "estrela da morte", contrariando o padrão, apenas porque sim. Referencias. 
  </p>
  http://localhost:8080/starwars/estreladamorte
