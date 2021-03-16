@@ -24,5 +24,19 @@
  Não achei parametro da API pra poder passar pagina, então o unico modo de percorrer os 60 planetas foi indo um por um.
  </p>
  <p align="left"> 
+ Caso ele encontre ele vai colocar a QTDE de filmes da API, caso contrario zero.
+ </p>
+ <p align="left"> 
+ A consulta por nome pega o parametro de pesquisa da url, exemplo:
+ </p>
+ http://localhost:8080/starwars/planetapornome/CARACTERES_PARA_PESQUISAR
+ http://localhost:8080/starwars/planetapornome/Plan
+ 
+ <p align="left"> 
+O Endpoint da exclusão se chama "estrela da morte", contrariando o padrão, apenas porque sim. Referencias. 
+ </p>
+ http://localhost:8080/starwars/estreladamorte
+ </br></br>
+ <p align="left"> 
  O CRUD funciona completo.
 </P>
