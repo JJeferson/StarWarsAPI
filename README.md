@@ -2,7 +2,7 @@
 <p align="left"> 
  API para cadastro de Planetas. </br>
  Consulta API publica do Star Wars também. </br>
- Todos os Endpoints testados se encontram dentro da coleção ma raiz do repositório. </br>
+ Todos os Endpoints testados se encontram dentro da coleção na raiz do repositório. </br>
  StarWars.postman_collection.json </br>
  Basta importar no postman e testar. </br>
  </P>
